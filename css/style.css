@@ -24,7 +24,7 @@ header {
     background-color: #FBBAB6;
 }
 
-header::before{
+.wave::before{
     content: "";
     position: absolute;
     left: 0;
@@ -36,7 +36,7 @@ header::before{
     background-image:
      radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
   }
-  header::after{
+  .wave::after{
     content: "";
     position: absolute;
     left: 0;
