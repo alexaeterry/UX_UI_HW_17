@@ -1,0 +1,124 @@
+h1 {
+    font-size: 84px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    height: 650px;
+    background-color: #FBBAB6;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image:
+     radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
+  }
+  header::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image:
+      radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+  }
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block
+}
+
+.redtext {
+    color: #9C2F10;
+}
+
+body {
+    background-color: #FFF4E9;
+}
+
+.card {
+    height: 550px;
+    width: 1500px;
+    color: #0C0F17;
+    border-radius: 50px;
+}
+
+.yellow {
+    background-color: #F8D797;
+}
+
+.green {
+    background-color: #63A7A0;
+}
+
+.blue {
+    background-color: #B4D0D3;
+}
+
+.red {
+    background-color: #DA9885;
+}
+
+.button {
+    background-color: #FFAA01;
+}
+
+.aboutme {
+    background-color: #CFB8A1;
+}
+
+.reachout {
+    text-align: center;
+}
+
+.email {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    background-color: #5C71A7;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 20px;
+}
