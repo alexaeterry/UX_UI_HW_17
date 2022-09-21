@@ -1,53 +1,50 @@
+/* FONT SPECS */
+p {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+}
+
 h1 {
     font-size: 84px;
+    font-family: 'Guyon Gazebo';
+    font-weight: normal;
+    font-style: normal;
 }
 
 h2 {
-    text-align: center;
-    font-size: 40px;
+    font-size: 36px;
+    font-family: 'NT Wagner';
+    font-weight: bold;
+    font-style: normal;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
 }
 
-p {
-    font-size: 20px;
-}
 
+
+/* HEADER */
 header {
-    height: 650px;
-    background-color: #FBBAB6;
+    height: 700px;
+    width: auto;
+    background-image: url("../images/header\ background.png");
+    background-position: center bottom;
+    background-size: 2100px 700px;
+    background-repeat: no-repeat;
 }
-
-.wave::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-repeat: repeat;
-    height: 10px;
-    background-size: 20px 20px;
-    background-image:
-     radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
-  }
-  .wave::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-repeat: repeat;
-    height: 15px;
-    background-size: 40px 20px;
-    background-image:
-      radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
-  }
 
 .links {
     display: flex;
@@ -64,8 +61,15 @@ header {
     color: #9C2F10;
 }
 
+
+
+/* BODY */
 body {
     background-color: #FFF4E9;
+}
+
+.intro {
+    text-align: center;
 }
 
 .card {
@@ -73,32 +77,119 @@ body {
     width: 1500px;
     color: #0C0F17;
     border-radius: 50px;
+    align-items: center;
+    margin: auto 0px 100px 200px;
 }
 
-.yellow {
+.txp2p {
     background-color: #F8D797;
+    background-image: url("../images/txp2p\ background.png");
+    background-position: center;
+    background-size: 1500px 550px;
 }
 
-.green {
+.doi {
     background-color: #63A7A0;
+    background-image: url("../images/doi\ background.png");
+    background-position: center;
+    background-size: 1500px 550px;
 }
 
-.blue {
+.pi {
     background-color: #B4D0D3;
+    background-image: url("../images/partyin\ background.png");
+    background-position: center;
+    background-size: 1500px 550px;
 }
 
-.red {
+.slh {
     background-color: #DA9885;
+    background-image: url("../images/slh\ background.png");
+    background-position: center;
+    background-size: 1500px 550px;
+}
+
+.role {
+    font-weight: 600;
+    font-style: normal;
+}
+
+hr {
+    width: 200px;
+    align-items: flex-start;
+    color: black;
 }
 
 .button {
-    background-color: #FFAA01;
+    position: absolute;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
+.yellow {
+    position: absolute;
+    width: 192px;
+    height: 41px;
+    left: 1300px;
+    top: 1380px;
+    background: #FFAA01;
+    border: none;
+    text-align: center;
+}
+
+.green {
+    position: absolute;
+    width: 192px;
+    height: 41px;
+    left: 1300px;
+    top: 2020px;
+    background: #0E7268;
+    border: none;
+    text-align: center;
+}
+
+.blue {
+    position: absolute;
+    width: 192px;
+    height: 41px;
+    left: 1300px;
+    top: 2670px;
+    background: #8FBCC2;
+    border: none;
+    text-align: center;
+}
+
+.red {
+    position: absolute;
+    width: 192px;
+    height: 41px;
+    left: 1300px;
+    top: 3320px;
+    background: #9C2F10;
+    border: none;
+    text-align: center;
+}
+
+
+
+/* ABOUT ME SECTION */
 .aboutme {
-    background-color: #CFB8A1;
+    height: 675px;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../images/about\ me\ background.png");
+    background-position: center top;
+    background-size: 2100px 675px;
+    background-repeat: no-repeat;
 }
 
+.title {
+    text-align: center;
+}
+
+
+/* CONTACT ME SECTION */
 .reachout {
     text-align: center;
 }
@@ -106,11 +197,22 @@ body {
 .email {
     padding: 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 56px;
+    color: #0E7268;
 }
 
+
+
+/* FOOTER */
 footer {
-    background-color: #5C71A7;
+    height: 450px;
+    width: auto;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    background-image: url("../images/footer\ background.png");
+    background-position: center;
+    background-size: 2100px 450px;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -119,6 +221,40 @@ footer {
     justify-content: center;
 }
 
-.quote {
-    font-size: 20px;
+blockquote {
+    color: #DBCAC2;
 }
+
+
+
+
+
+
+
+/* possible wavy border code?
+
+.wave::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 10px;
+    background-size: 20px 20px;
+    background-image:
+     radial-gradient(circle at 10px -5px, transparent 12px, #fff 13px);
+  }
+.wave::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image:
+      radial-gradient(circle at 10px 15px, #fff 12px, transparent 13px);
+}
+*/

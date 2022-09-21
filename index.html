@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 
 <head>
+    <link rel="preload" href="../UX_UI_HW_17/font/NTWagner.woff" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../UX_UI_HW_17/font/GuyonGazebo-Regular.woff" as="font" type="font/woff2" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <title>Hey y'all, I'm Alexa</title>
-    <link rel="stylesheet" href="../UX_UI_HW_17/css/style.css">
-    <link rel="icon" type="image/x-icon" href="TBD">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <header>
@@ -12,63 +14,72 @@
         <h3 class="link"><a>About Me</a></h3>
         <h3 class="link"><a>Reach Out</a></h3>
         <h3 class="link"><a>My Resume</a></h3>
+        <img src="../">
     </div>
     
     <div>
         <h1>Hey y'all, <br> I'm <span class="redtext">Alexa Terry</span>, <br> a <span class="redtext">UX/UI Designer</span> <br> based in north <span class="redtext">Texas</span>.</h1>
+    
+        <img src="../UX_UI_HW_17/images/header illustration.png" class="headerimg">
     </div>
 </header>
 
 <body>
-    <div class="wave"></div>
-
-    <div>
+    <div class="intro">
         <h3>An old dog <em>can</em> learn new tricks</h3>
         <h2>See some stuff I've done</h2>
+        <img src="../UX_UI_HW_17/images/back.png">
     </div>
 
-    <div class="card yellow">
+    <div class="card txp2p">
         <h3>Texas Parent to Parent</h3>
-        <h4>Role: Project Manager</h4>
+        <hr/>
+        <h4><span class="role"></span>Role: Project Manager</h4>
         <p>Homepage redesign and modernized branding for the non-profit, Texas Parent to Parent.</p>
-        <button class="button">See the deets</button>
+        <button class="button yellow"><p>See the deets</p></button>
     </div>
 
-    <div class="card green">
-        <h3>Texas Parent to Parent</h3>
-        <h4>Role: Project Manager</h4>
-        <p>Homepage redesign and modernized branding for the non-profit, Texas Parent to Parent.</p>
-        <button class="button">See the deets</button>
+    <div class="card doi">
+        <h3>Department of the Interior</h3>
+        <hr/>
+        <h4>Role: Information Architecture Lead</h4>
+        <p>Redesign of the Department of the Interior homepage to encourage engagement in offered programs.</p>
+        <button class="button green"><p>See the deets</p></button>
     </div>
 
-    <div class="card blue">
-        <h3>Texas Parent to Parent</h3>
-        <h4>Role: Project Manager</h4>
-        <p>Homepage redesign and modernized branding for the non-profit, Texas Parent to Parent.</p>
-        <button class="button">See the deets</button>
+    <div class="card pi">
+        <h3>partyIN</h3>
+        <hr/>
+        <h4>Role: UI Design Lead</h4>
+        <p>Save time planning a party with themed party boxes shipped right to your door!</p>
+        <button class="button blue"><p>See the deets</p></button>
     </div>
 
-    <div class="card red">
-        <h3>Texas Parent to Parent</h3>
-        <h4>Role: Project Manager</h4>
-        <p>Homepage redesign and modernized branding for the non-profit, Texas Parent to Parent.</p>
-        <button class="button">See the deets</button>
+    <div class="card slh">
+        <h3>Southgate-Lewis House</h3>
+        <hr/>
+        <h4>Role: Prototyping Lead / Research Support</h4>
+        <p>Working to preserve the oldest historical home in the most actively gentrified neighborhood in Austin, TX.</p>
+        <button class="button red"><p>COMING SOON!</p></button>
     </div>
     
     <div class="aboutme">
-        <h2> A little more about me</h2>
+        <h2 class="title"> A little more about me</h2>
+        
+        <img src="../UX_UI_HW_17/images/headshot.png">
+
         <ul>
-            <li>Born and raised in Austin, TX</li>
-            <li>Moved to Denton, TX in early 2021</li>
-            <li>I have a B.S. in microbiology</li>
-            <li>I minored in Spanish</li>
-            <li>I’ve been to 15 different countries</li>
-            <li>I have a black cat named Karyn</li>
-            <li>I don’t like roller coasters</li>
-            <li>One time I won a contest for the best paper airplane</li>
-            <li>My very first concert was N*SYNC in 2002</li>
-            <li>I’m an advocate for rebranding Amazon’s wake word</li>
-            <li>My favorite music genre is 90’s EuroDance</li>
+            <li><p>Born and raised in Austin, TX</p></li>
+            <li><p>Moved to Denton, TX in early 2021</p></li>
+            <li><p>I have a B.S. in microbiology</p></li>
+            <li><p>I minored in Spanish</p></li>
+            <li><p>I’ve been to 15 different countries</p></li>
+            <li><p>I have a black cat named Karyn</p></li>
+            <li><p>I don’t like roller coasters</p></li>
+            <li><p>One time I won a contest for the best paper airplane</p></li>
+            <li><p>My very first concert was N*SYNC in 2002</p></li>
+            <li><p>I’m an advocate for rebranding Amazon’s wake word</p></li>
+            <li><p>My favorite music genre is 90’s EuroDance</p></li>
         </ul>
     </div>
 
@@ -76,7 +87,7 @@
         <h2>Don't be a stranger!</h2>
         <h3>Something you like, something to work on, interested in working together?</h3>
         <h3>Let me hear what you've got to say.</h3>
-        <p class="email">alexaeterry@gmail.com</p>
+        <h1 class="email">alexaeterry@gmail.com</h1>
         <p>and here's <strong><span class="redtext">my resume</span></strong>, if you're into that kind of thing.</p>
     </div>
 </body>
@@ -91,8 +102,10 @@
         <h3 class="link"><a>Dribbble</a></h3>
     </div>
 
+    <img src="../UX_UI_HW_17/images/footer illustration.png">
+
     <div class="quote">
-        <p>“The best way to accomplish serious design...is to be totally and completely unqualified for the job.”</p>
-        <p>-Paula Scher</p>
+        <blockquote><h4>“The best way to accomplish serious design...is to be totally and completely unqualified for the job.”</h4>
+        <h4>-Paula Scher</h4></blockquote>
     </div>
 </footer>
