@@ -61,6 +61,12 @@ header {
     color: #9C2F10;
 }
 
+.headerimg {
+    resize: 25%;
+    display: block;
+    margin-left: auto;
+}
+
 
 
 /* BODY */
@@ -70,6 +76,11 @@ body {
 
 .intro {
     text-align: center;
+}
+
+.arrow {
+    resize: 15%;
+    rotate: -90;
 }
 
 .card {
@@ -187,6 +198,11 @@ hr {
 .title {
     text-align: center;
 }
+
+.headshot {
+    resize: 25%;
+    text-align: right;
+    display: inline;
 
 
 /* CONTACT ME SECTION */
