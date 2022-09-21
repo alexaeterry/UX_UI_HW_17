@@ -62,9 +62,16 @@ header {
 }
 
 .headerimg {
-    resize: 25%;
-    display: block;
-    margin-left: auto;
+    height: auto;
+    width: 750px;
+    position: relative;
+    top: -125px;
+    left: -125px;
+    float: right
+}
+
+.welcome {
+    display: inline;
 }
 
 
@@ -79,8 +86,8 @@ body {
 }
 
 .arrow {
-    resize: 15%;
-    rotate: -90;
+    height: 75px;
+    width: 75px;
 }
 
 .card {
@@ -185,13 +192,13 @@ hr {
 
 /* ABOUT ME SECTION */
 .aboutme {
-    height: 675px;
+    height: 750px;
     width: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: url("../images/about\ me\ background.png");
     background-position: center top;
-    background-size: 2100px 675px;
+    background-size: 2100px 750px;
     background-repeat: no-repeat;
 }
 
@@ -200,12 +207,19 @@ hr {
 }
 
 .headshot {
-    resize: 25%;
-    text-align: right;
+    margin-left: 100px;;
+    height: 500px;
+    width: 500px;
+    float: left;
+
+ul {
     display: inline;
+    position: right;
+}
 
 
 /* CONTACT ME SECTION */
+
 .reachout {
     text-align: center;
 }
@@ -230,6 +244,11 @@ footer {
     background-size: 2100px 450px;
     background-repeat: no-repeat;
     text-align: center;
+}
+
+.footerimg {
+    width: 300px;
+    height: auto;
 }
 
 .social {
