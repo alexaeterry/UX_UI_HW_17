@@ -212,9 +212,16 @@ hr {
     width: 500px;
     float: left;
 
+
+
+
+
+
+
+
 ul {
-    display: inline;
-    position: right;
+    position: relative;
+    float: right;
 }
 
 
@@ -249,6 +256,8 @@ footer {
 .footerimg {
     width: 300px;
     height: auto;
+    position: absolute;
+    float: right;
 }
 
 .social {
